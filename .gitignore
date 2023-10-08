@@ -19,3 +19,6 @@ bin-release/
 
 # Remove old cli sh
 cli_old.sh
+
+# testfile
+test/
