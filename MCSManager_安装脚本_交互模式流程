@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T08:55:53.687Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="RU46cG4jTywDFIbbWuTV" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T10:57:12.828Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="wCIKnACPUNR_9iRTcvHz" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,43 @@
             <mxPoint x="440" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-4" value="获取安装哪些组件。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="SrAoEHSOwcG-Mykv034G-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-4" target="SrAoEHSOwcG-Mykv034G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-4" value="获取安装哪些组件。&lt;br&gt;全部安装|web|deamon" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-6" target="SrAoEHSOwcG-Mykv034G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-6" value="获取是否安装node。&lt;br&gt;获取是否添加systemd 服务。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-10" target="SrAoEHSOwcG-Mykv034G-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-10" value="同时安装deamon&lt;br&gt;和web" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-12" target="SrAoEHSOwcG-Mykv034G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-12" value="询问是否安装到mcsmanager目录下。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-14" target="SrAoEHSOwcG-Mykv034G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SrAoEHSOwcG-Mykv034G-19">
+          <mxGeometry x="-0.1778" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-14" value="同时安装在MCSManager目录下" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="720" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-18" value="获取MCSManager安装目录。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
