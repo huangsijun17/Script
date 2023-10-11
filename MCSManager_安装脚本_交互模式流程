@@ -1,61 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T10:57:12.828Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="wCIKnACPUNR_9iRTcvHz" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T08:05:02.968Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="Kb0p4BE2AEQhzevgR_s2" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="SrAoEHSOwcG-Mykv034G-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-0" target="SrAoEHSOwcG-Mykv034G-4">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-0" target="SrAoEHSOwcG-Mykv034G-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-0" value="获取安装给哪个用户。&lt;br&gt;所有用户|root用户|当前用户|指定用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-0" value="获取安装给哪个用户。&lt;br&gt;所有用户|root用户|当前用户|指定用户" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="170" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-1" value="开始交互式获取信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-1" value="开始交互式获取信息" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-1" target="SrAoEHSOwcG-Mykv034G-0">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-1" target="SrAoEHSOwcG-Mykv034G-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="140" as="sourcePoint" />
             <mxPoint x="440" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-4" target="SrAoEHSOwcG-Mykv034G-6">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-4" target="SrAoEHSOwcG-Mykv034G-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-4" value="获取安装哪些组件。&lt;br&gt;全部安装|web|deamon" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-4" value="获取安装哪些组件。&lt;br&gt;全部安装|web|deamon" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="260" y="310" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-6" target="SrAoEHSOwcG-Mykv034G-10">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-6" target="SrAoEHSOwcG-Mykv034G-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-6" value="获取是否安装node。&lt;br&gt;获取是否添加systemd 服务。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-6" value="获取是否安装node。&lt;br&gt;获取是否添加systemd 服务。" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="250" y="450" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-10" target="SrAoEHSOwcG-Mykv034G-12">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-10" target="SrAoEHSOwcG-Mykv034G-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-10" value="同时安装deamon&lt;br&gt;和web" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="260" y="580" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-12" target="SrAoEHSOwcG-Mykv034G-14">
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-1" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-10" target="jmZgeLn5iMs1xZrxQ9eH-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-12" value="询问是否安装到mcsmanager目录下。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-10" value="同时安装deamon&lt;br&gt;和web？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="250" y="580" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-12" target="SrAoEHSOwcG-Mykv034G-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-12" value="询问是否安装到mcsmanager目录下。" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-14" target="SrAoEHSOwcG-Mykv034G-18">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-14" target="SrAoEHSOwcG-Mykv034G-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SrAoEHSOwcG-Mykv034G-19">
+        <mxCell id="SrAoEHSOwcG-Mykv034G-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SrAoEHSOwcG-Mykv034G-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1778" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-7" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-14" value="同时安装在MCSManager目录下" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="10" y="720" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SrAoEHSOwcG-Mykv034G-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="990" />
+              <mxPoint x="241" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrAoEHSOwcG-Mykv034G-18" value="询问MCSManager安装目录。" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-3" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-0" target="jmZgeLn5iMs1xZrxQ9eH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-5" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-0" target="jmZgeLn5iMs1xZrxQ9eH-4">
+          <mxGeometry x="-0.4667" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="620" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-14" value="同时安装在MCSManager目录下" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="720" width="200" height="80" as="geometry" />
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-0" value="是否安装deamon？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="580" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SrAoEHSOwcG-Mykv034G-18" value="获取MCSManager安装目录。" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="890" width="120" height="60" as="geometry" />
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="1050" />
+              <mxPoint x="391" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-2" value="询问deamon安装路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-4" value="询问web安装路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-8" target="jmZgeLn5iMs1xZrxQ9eH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-8" value="询问deamon安装路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jmZgeLn5iMs1xZrxQ9eH-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jmZgeLn5iMs1xZrxQ9eH-9" value="询问web安装路径" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
